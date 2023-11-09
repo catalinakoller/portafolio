@@ -5,7 +5,7 @@ Visualizar de manera clara y profesional mi trayectoria como estudiante de dise�
 
 **¿Para quién es esta propuesta?**
 
-![Brainstorming User Persona Experiencia De Usuario Estético Lila](https://github.com/catalinakoller/portafolio/assets/141850128/1e54c206-54c6-4fe2-831c-0e97736b2b26)
+<img src="https://github.com/catalinakoller/portafolio/blob/main/img1.jpg" width="300">
 
 **¿Qué existe que es similar a la propuesta?**
 
