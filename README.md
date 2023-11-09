@@ -5,7 +5,7 @@ Visualizar de manera clara y profesional mi trayectoria como estudiante de dise�
 
 **¿Para quién es esta propuesta?**
 
-<img src="https://github.com/catalinakoller/portafolio/blob/main/img1.jpg" width="700">
+<img src="https://github.com/catalinakoller/portafolio/blob/main/img1.jpg" width="900">
 
 **¿Qué existe que es similar a la propuesta?**
 
