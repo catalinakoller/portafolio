@@ -20,4 +20,4 @@ Visualizar de manera clara y profesional mi trayectoria como estudiante de dise�
 
 **¿Qué existe que puede inspirar la propuesta?**
 
-<img src="[URL_de_la_imagen](https://github.com/catalinakoller/portafolio/assets/141850128/61609c30-29d6-44a1-8026-0bbcea427626)" alt="Texto alternativo" width="300"> 
+<img src="[URL_de_la_imagen](https://github.com/catalinakoller/portafolio/assets/141850128/61609c30-29d6-44a1-8026-0bbcea427626)" width="300"> 
