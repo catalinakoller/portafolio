@@ -19,3 +19,5 @@ Visualizar de manera clara y profesional mi trayectoria como estudiante de dise�
 | [Pág 6](https://gamifylist.com/?ref=landings.dev) | Portada logra cohesión armoniosa de varios elementos que son complejos pero logran interactuar para crear ua visual llamativa y entretenida. | Al hacer scroll, se pierde un poco esa esencia tan marcada. |
 
 **¿Qué existe que puede inspirar la propuesta?**
+
+<img src="https://github.com/catalinakoller/portafolio/blob/main/img2.png)https://github.com/catalinakoller/portafolio/blob/main/img2.png" width="300">
