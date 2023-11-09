@@ -20,4 +20,4 @@ Visualizar de manera clara y profesional mi trayectoria como estudiante de dise�
 
 **¿Qué existe que puede inspirar la propuesta?**
 
-<img src="https://github.com/catalinakoller/portafolio/blob/main/img2.png)https://github.com/catalinakoller/portafolio/blob/main/img2.png" width="300">
+<img src="https://github.com/catalinakoller/portafolio/blob/main/img2.png" width="300">
