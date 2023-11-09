@@ -1,4 +1,6 @@
 # P O R T A F O L I O
 **¿Para qué es esta propuesta?**
+
 Visualizar de manera clara y profesional mi trayectoria como estudiante de diseño a través de los distintos proyectos realizados durante mis (casi) 3 años de carrera.
+
 **¿Para quién es esta propuesta?**
