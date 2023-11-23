@@ -214,7 +214,7 @@
         <script>
             const donde = document.querySelector("#trabajos");
             async function portfolio() {
-                const consulta = await fetch("https://raw.githubusercontent.com/catalinakoller/dnm-12/main/portafolio.json");
+                const consulta = await fetch("https://raw.githubusercontent.com/catalinakoller/portafolio/main/portafoliofinal.json");
                 const data = await consulta.json();
                 data.forEach((t, i) => {
                     donde.innerHTML += 
