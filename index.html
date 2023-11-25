@@ -27,15 +27,29 @@
             font-size: 20px;
             font-family: sans-serif;
         }
-        #foto {
-                background: transparent url("https://raw.githubusercontent.com/catalinakoller/portafolio/main/fondoportafolio.webp") 0 0 no-repeat;
-                background-size: cover;
-            }
+        .header-with-background {
+        background-image: url("https://raw.githubusercontent.com/catalinakoller/dnm-12/main/fondoportafolio5.webp") ;
+        background-size: cover; /* Ajusta según tus preferencias (cover, contain, auto, etc.) */
+        background-position: center; /* Ajusta según tus preferencias (center, top, bottom, left, right, etc.) */
+        height: 100vh; /* Ajusta la altura según tus preferencias */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+        .text-gradient {
+        background: linear-gradient(45deg, #941e14, #c68bf9);
+        -webkit-background-clip: text;
+         color: transparent;
+        }
         nav a {
-            color: #4523bb !important; /* Cambia esto al color que desees para los enlaces */
+            color: #941e14 !important; /* Cambia esto al color que desees para los enlaces */
             text-decoration: none;
             padding: 10px 20px;
             margin: 0 10px;
+        }
+        .link-underline {
+        text-decoration: underline !important;
         }
     </style>
 
@@ -65,27 +79,39 @@
     <!--Barra de navegación fija al tope-->
     <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" style="color: #fff !important;" href="index.html">Bienvenidx a mi portafolio - Catalina Koller (Cais)</a>
+                <a class="navbar-brand" style="color: #000000 !important;" href="index.html">Portafolio Catalina Koller</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#lasEspecialidades">Áreas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#losTrabajos">Trabajos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#losContactos">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link link-underline" href="#lasEspecialidades">Áreas</a></li>
+        <li class="nav-item"><a class="nav-link link-underline" href="#losTrabajos">Trabajos</a></li>
+        <li class="nav-item"><a class="nav-link link-underline" href="#losContactos">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
          <!--Encabezado-->
-        <header class="vh-100" id="foto">
-            <div class="position-absolute top-50 start-50 translate-middle w-50">
-                <p class="fs-4 text-white">
-                    Veo el diseño como una forma de analizar el entorno y así una herramienta que converge lo técnico y creativo permitiendo cambiar el mundo o mejorarlo desde una perspectiva multidisciplinaria, promoviendo la colaboración y creación consciente. En la práctica, me he <a href="#lasEspecialidades" class="link-light">especializado en diseño textil, gráfico y en diseño desde la conciencia medioambiental</a> para la creación de proyectos aplicados a contextos específicos.
-                </p>
+  <header class="py-5 header-with-background" style="margin-top: 100px;">
+    <div class="container px-5 pb-5">
+      <div class="row gx-5 align-items-center">
+       <div class="col-xxl-5">
+       <!-- Header text content-->
+          <div class="text-center text-xxl-start">
+            <p class="fs-4 text-white" style="margin-left: 60px;">
+                    El diseño como una forma de analizar el entorno y por consiguiente, una herramienta donde convergen lo técnico y creativo, permitiendo ser agente activo de cambio desde una perspectiva multidisciplinaria, que promueve la colaboración y creación consciente.
+                    </p>
+            <p class="fs-4 text-white" style="margin-left: 60px;">
+                    En mi trayectoria como estudiante me he acercado principalmente al <a href="#lasEspecialidades" class="link-light">diseño textil, gráfico y al diseño desde la conciencia medioambiental</a>.</p>
+                    <h1 class="display-3 fw-bolder mb-5" style="margin-left: 270px;"><span class="text-gradient d-inline">-Cais</span></h1>
             </div>
-        </header>
+            </div>
+          <div class="col-xxl-7">
+        </div>
+      </div>
+    </div>
+  </header>
         <!--Los símbolos en este SVG escondido serán reutilizados más abajo-->
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol id="columns" viewBox="0 0 16 16">
@@ -108,14 +134,14 @@
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#FF69B4"><use href="#scissors"></use></svg> Textil
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#941e14"><use href="#scissors"></use></svg> Textil
                         </h2>
                         <p>Me he especializado principalmente en la creación de piezas a las cuales aplico distintas intervenciones que le van dando identidad. Dichas intervenciones vienen acompañadas de un exhaustivo proceso creativo que las justifique y permita una ejecución armoniosa y coherente.</p>
                         <small>#Fashion</small>
                     </div>
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#FF69B4"><use href="#columns"></use></svg> Gráfico
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#941e14"><use href="#columns"></use></svg> Gráfico
                         </h2>
                         <p>Tengo experiencia tanto en lo que implica investigación y diagrammación creativa de datos como formulaciones más extensas que implican re formular la imagen de una marca o  crear una en base a un producto.</p>
                         <small>#Branding</small>
@@ -123,7 +149,7 @@
                     </div>
                     <div class="col-lg-4">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#FF69B4"><use href="#earth"></use></svg> Para el Medioambiente
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#941e14"><use href="#earth"></use></svg> Para el Medioambiente
                         </h2>
                         <p>Frente a la crisis ambiental que vivimos hoy, como futura diseñadora soy responsable de no seguir perpetuando este daño. Frente a esto he desarrollado distintos proyectos evitando desechos e incluso aprovechándolos.</p>
                         <small>#Sustentability</small>
@@ -137,69 +163,34 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="trabajos"></div>
             </div>
         </section>
-        <!--Sección de #lasOpiniones-->        
-        <section class="bg-light" id="lasOpiniones">
-            <div class="container py-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Opiniones</h2>
-                    <p class="lead mb-0">Algunos clientes felices</p>
-                </div>
-                <div class="row">
-                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
-                        <!-- Primer comentario-->
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body p-4">
-                                <p class="mb-1">😌 Habilidad excepcional para fusionar branding y diseño de datos creativamente.</p>
-                                <div class="small text-muted text-end">— Daniela Espinoza</div>
-                            </div>
-                        </div>
-                        <!-- Segundo comentario-->
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body p-4">
-                                <p class="mb-1">🤯 Tu enfoque en diseño textil con conciencia medioambiental es impresionante. La forma en que incorporas materiales sostenibles y técnicas eco-amigables en tus creaciones es realmente inspiradora.</p>
-                                <div class="small text-muted text-end">— Profe Valentina</div>
-                            </div>
-                        </div>
-                        <!-- Tercer comentario-->
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body p-4">
-                                <p class="mb-1">😪 Tu enfoque en la sostenibilidad a menudo afecta negativamente la estética y utilidad de tus diseños..</p>
-                                <div class="small text-muted text-end">— Sebastián Perez</div>
-                            </div>
-                        </div>
-                        <!-- Listo, no más comentarios-->
-                    </div>
-                </div>
-            </div>
-        </section>
         <!--Sección de #losContactos-->        
         <section class="border-top border-bottom" id="losContactos">
             <div class="container py-5">
                 <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Contactos</h2>
+                    <h2 class="fw-bolder">Contacto</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card h-100 shadow-sm">
                             <div class="card-body text-center">                        
-                                <h3 class="m-0 fs-5"><span class="fs-1">📍</span><br/>Dirección</h4>
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body text-center">
-                                <h3 class="m-0 fs-5"><span class="fs-1">📬</span><br/>Email</h4>
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body text-center">
                                 <h3 class="m-0 fs-5"><span class="fs-1">📞</span><br/>Teléfono</h4>
-                                <div class="small text-black-50">+56 9 5555 5555</div>
+                                <div class="small text-black-50">+56 9 9547 1079 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <h3 class="m-0 fs-5"><span class="fs-1">📨</span><br/>Email</h4>
+                                <div class="small text-black-50"><a href="#!">ckoller.cl</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <h3 class="m-0 fs-5"><span class="fs-1">📲</span><br/>Instagram</h4>
+                                <div class="small text-black-50">@_c4is</div>
                             </div>
                         </div>
                     </div>
