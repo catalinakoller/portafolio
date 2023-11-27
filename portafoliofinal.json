@@ -9,7 +9,7 @@
     {
         "nombre": "Energía en tu basura",
         "fotos": ["https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/energ%C3%ADa1.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/energ%C3%ADa2.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/energ%C3%ADa3.webp"],
-        "soporte": "sustentability",
+        "soporte": "sustentability modelado3D",
         "abstract": "Implementación de biodigestores para la obtención de energía limpia en colegios de Puerto Williams",
         "texto": "En todo el país, incluyendo Puerto Williams, existe el estigma de percibir los residuos orgánicos como basura. Además, esta localidad, debido a sus bajas temperaturas, requiere grandes cantidades de energía para calefacción.  El proyecto propone un sistema de implementación de biodigestores que permiten obtener biocombustible mediante la degradación de materia orgánica, en colegios locales para transformar la forma en que se percibe la basura y se aprovechen residuos orgánicos en especial en este tipo de establecimientos. El funcionamiento de estos sería gestionado tanto por el estudiantado como por funcionarios de la institución, promoviendo que se familiaricen directamente con iniciativas amigables con el medioambiente."
     },
@@ -21,13 +21,6 @@
         "texto": "Macetero plantable y biodegradable, hecho de biomaterial en base a carbonato de calcio. Este material tiene como componente principal cáscara de huevo, la cual se mezcla con borra de café, glicerina y alginato, y se acaba recubriendo con cera de abeja que hace al material impermeable. Maceterra previene el exceso de residuos existentes en la venta de plantas y automatiza el proceso de otorgarles nutrientes de forma manual a las plantas que necesitan calcio para crecer sanas como las calcícolas y las hortalizas. Su forma hexagonal permite que se acoplen unos con otros dando estabilidad en caso de que necesiten ser transportados."
     },
     {
-        "nombre": "Cambalache",
-        "fotos": ["https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/cambalache1.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/cambalache2.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/cambalache3.webp"],
-        "soporte": "digital",
-        "abstract": "Servicio de intercambio de ropa a través de una aplicación que facilita el trueque. ",
-        "texto": "Existe una tendencia de renovar constantemente el closet lo cual implica una gran inversión de tiempo y dinero. La aplicación Cambalache te permite subir tus prendas que ya no uses para luego mediante interacciones tipo match, encontrar alguien que este dispuesto a intercambiar una prenda suya por la tuya. Se les asignan puntuaciones según su estado y calidad junto con otras características técnicas, lo que facilita la búsqueda y regula la compatibilidad de los intercambios, los cuales se coordinan posterior al match directamente con el otro usuario mediante chat. Así, se agiliza el intercambio de ropa sin uso prescindiendo del dinero."
-    },
-    {
         "nombre": "Amatista's Star Jacket",
         "fotos": ["https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/amatista1.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/amatista2.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/amatista3.webp"],
         "soporte": "fashion",
@@ -35,17 +28,10 @@
         "texto": "Luego de un levantamiento de información y estudio de la identidad que toma el personaje Amatista a lo largo de la serie animada Steven Universe, se confeccionó esta chaqueta en base a un cortaviento vintage, modificándolo para que tome una nueva vida al incorporar detalles que transmitan el carácter de dicho personaje. Este proceso incluyó estudio del viaje del héroe, abstracción de movimientos y figuras repetitivas e identificación de la paleta de colores principal, así como también un acercamiento a la materialidad que según lo anterior se asemejaría más a las necesidades y gustos del personaje."
     },
     {
-        "nombre": "A los ojos del Ajo",
-        "fotos": ["https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/ajo2.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/ajo1.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/ajo3.webp"],
-        "soporte": "fashion",
-        "abstract": "Abstracción artística del impacto de plantar un ajo en un ecosistema determinado.",
-        "texto": "Tras una documentación en bitácora, se analizó cómo un evento, a primera instancia tan banal como plantar un ajo, en realidad genera impacto en su entorno. El ajo se vuelve un agente de cambio en su ecosistema, en este caso el huerto de mi casa, entendiendo los demás actores no solo como las demás plantas sino también bichos, animales y humanos. De este análisis fue rescatado el impacto que tuvo en mí (angustiante), en mis gatos (curiosos, juguetones), en mi mamá (atenta, amante de las plantas) y en la maleza (muerte, arrancada para no interferir con el ajo) y se dio bajada a una reflexión creativa materializada en piezas de indumentaria."
-    },
-    {
-        "nombre": "PetFinder",
-        "fotos": ["https://picsum.photos/id/237/500/310", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/petfinder1.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/petfinder2.webp"],
+        "nombre": "Diagramación, Logos, etc.",
+        "fotos": ["https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/digital.webp", "https://raw.githubusercontent.com/catalinakoller/img-dnm-12/main/Img11/digital2.webp"],
         "soporte": "digital",
-        "abstract": "Aplicación tipo SoSafe para denunciar mascotas perdias y adoptar",
-        "texto": "PetFinder tiene un funcionamiento similar al de SoSafe pero este enfocado en mascotas. Esta aplicación proporciona herramientas para que puedas publicar casos de adopción y denuncias de mascotas extraviadas u otras situaciones que pongan en peligro la seguridad de los animales. Así también puedes buscar mascotas para adoptar o pedir ayuda si se extravió la tuya. La aplicación tendría una llegada directa a autoridades para que estas tomen acción ante cualquier eventualidad que así lo requiera. Además, como retribución por la ayuda, colaboración y difusión de los usuarios, PetFinder recompensa con cupones de descuentos y canjes en distintas tiendas."
+        "abstract": "Utilización de herramientas digitales para organizar y comunicar.",
+        "texto": "Uso de herramientas digitales principalmente para la organización de información donde se busca rescatar y comunicar la identidad del tema en cuestión a través de la composición gráfica."
     }
 ]
