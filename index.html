@@ -17,7 +17,7 @@
         }
 
         nav {
-            background-color: #c68bf9;
+            background-color: #941e14;
             padding: 10px;
             border-radius: 30px;
             width: 80%; /* Ajusta el ancho según tus preferencias */
@@ -37,19 +37,30 @@
         justify-content: center;
         text-align: center;
         }
-        .text-gradient {
-        background: linear-gradient(45deg, #941e14, #c68bf9);
-        -webkit-background-clip: text;
-         color: transparent;
+        .d-inline {
+         color: #c68bf9;
         }
         nav a {
-            color: #941e14 !important; /* Cambia esto al color que desees para los enlaces */
+            color: #c68bf9 !important; /* Cambia esto al color que desees para los enlaces */
             text-decoration: none;
             padding: 10px 20px;
             margin: 0 10px;
         }
-        .link-underline {
-        text-decoration: underline !important;
+        #trabajos .card {
+        border: none;
+        border-radius: 30px;  /* Ajusta el valor según sea necesario para redondear las esquinas */
+        height: 100%;  /* Ajusta el valor para cambiar la altura de los cuadrados */
+        background-color: #c68bf9
+        }
+        #trabajos .card img {
+        border-top-left-radius: 30px; /* Ajusta el valor según sea necesario para redondear la esquina superior izquierda de las imágenes */
+        border-top-right-radius: 30px;/* Ajusta el valor según sea necesario para redondear la esquina superior derecha de las imágenes */
+        }
+        footer{
+                background: #941e14;
+        }
+        #losContactos .card {
+        border-color: #4523bb ;
         }
     </style>
 
@@ -104,7 +115,7 @@
                     </p>
             <p class="fs-4 text-white" style="margin-left: 60px;">
                     En mi trayectoria como estudiante me he acercado principalmente al <a href="#lasEspecialidades" class="link-light">diseño textil, gráfico y al diseño desde la conciencia medioambiental</a>.</p>
-                    <h1 class="display-3 fw-bolder mb-5" style="margin-left: 270px;"><span class="text-gradient d-inline">-Cais</span></h1>
+                    <h1 class="display-3 fw-bolder mb-5" style="margin-left: 270px;"><span class="d-inline">-Cais</span></h1>
             </div>
             </div>
           <div class="col-xxl-7">
@@ -134,7 +145,7 @@
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#941e14"><use href="#scissors"></use></svg> Textil
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#c68bf9"><use href="#scissors"></use></svg> Textil
                         </h2>
                         <p>Me he especializado principalmente en la creación de piezas a las cuales aplico distintas intervenciones que le van dando identidad. Dichas intervenciones vienen acompañadas de un exhaustivo proceso creativo que las justifique y permita una ejecución armoniosa y coherente.</p>
                         <small>#Fashion</small>
@@ -149,7 +160,7 @@
                     </div>
                     <div class="col-lg-4">
                         <h2 class="h4 fw-bolder">
-                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#941e14"><use href="#earth"></use></svg> Para el Medioambiente
+                            <svg class="me-1 mb-1" width="1em" height="1em" fill="#4523bb"><use href="#earth"></use></svg> Para el Medioambiente
                         </h2>
                         <p>Frente a la crisis ambiental que vivimos hoy, como futura diseñadora soy responsable de no seguir perpetuando este daño. Frente a esto he desarrollado distintos proyectos evitando desechos e incluso aprovechándolos.</p>
                         <small>#Sustentability</small>
@@ -159,12 +170,13 @@
         </section>
         <!--Sección de #losTrabajos-->        
         <section class="border-top border-bottom" id="losTrabajos">
-            <div class="container py-5">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="trabajos"></div>
-            </div>
+          <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-3 g-5 shadow-lg" id="trabajos"></div>
+          </div>
         </section>
         <!--Sección de #losContactos-->        
         <section class="border-top border-bottom" id="losContactos">
+          <div class="bg-light">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder">Contacto</h2>
@@ -213,9 +225,9 @@
                         <div class="card h-100 shadow-sm">
                             <img src="${t.fotos[0]}" class="card-img-top">
                             <div class="card-body">
-                                <h3 class="fs-5"><a data-bs-toggle="modal" href="#portfolioModal${i}" class="link-secondary">${t.nombre}</a></h3>
+                                <h3 class="fs-5"><a data-bs-toggle="modal" href="#portfolioModal${i}" style="color: #fff;">${t.nombre}</a></h3>
                                 <p>${t.abstract}</p>
-                                <small>${t.soporte}</small>
+                                <small style="color: #4523bb;">${t.soporte}</small>
                             </div>
                         </div>
                     </article>
@@ -227,7 +239,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">${t.nombre}</h2>
-                                    <p>${t.abstract}</p>
+                                    <p>${t.texto}</p>
                                     <p class="small text-body-secondary">#${t.soporte}</p>
                                         ${fotos(t.fotos)}
                                 </div>
